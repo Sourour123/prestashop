@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'sourour',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'gaB0T6oov3EDLhGyJe0DaxWxeYGNCTcCNbo5mAeJFjHk8mVyuS1Wx6DER6ZYRvHH',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-11-10',
+    'locale' => 'fr-FR',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'd8H9VgpEL0b3deFTvO90gXtYnXvVBSEdmW5SbruVu0FHEx6HRwz0EmSrtGxEWGXz',
+    'cookie_iv' => 'OtVHFtQfxvitbG1Tcjmq5q6qsLW6LTIT',
+    'new_cookie_key' => 'def00000c7b113bd186f9976f57e4bf2649e41dc858ddaa612c344043aadc762bf50ad4baf92e20f3821cf16d19ccfa85ce7acf731af8a64f7ce1d621ebbf5129c3e9165',
+  ),
+);
