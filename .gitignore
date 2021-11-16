@@ -1,14 +1,24 @@
-/*
-!themes
-themes/*
-!themes/nom_de_theme
-themes/nom_de_theme/_dev/node_modules*
-!modules
-modules/*
-node_modules/
-!modules/nom_de_module_à_giter
-!.gitignore
-!override
+# This is a template .gitignore file for git-managed Prestashop projects. Inspired by micahwalter wordpress gitignore
+
+#Ignore ds_store
 *.DS_Store
-*.log
-*cache*
+
+
+# Ignore everything in the root except modules, themes and override.
+/*
+!modules/
+!themes/
+!override/
+
+
+# Ignore everything in the "plugins" directory, except the plugins you
+# specify (see the commented-out examples for hints on how to do this.)
+
+#modules/*
+# !modules/my-directory-plugin/
+
+# Ignore everything in the "themes" directory, except the themes you
+# specify (see the commented-out example for a hint on how to do this.)
+
+#themes/*
+#!themes/my-theme/
