@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-15 16:11:08
+/* Smarty version 3.1.39, created on 2021-11-15 21:48:42
   from 'C:\laragon\www\prestashop\admin359vzdssp\themes\new-theme\template\components\layout\search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6192788cd67373_62744163',
+  'unifunc' => 'content_6192c7aa33a954_74654008',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6192788cd67373_62744163 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6192c7aa33a954_74654008 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <form id="header_search"
       class="bo_search_form dropdown-form js-dropdown-form collapsed"

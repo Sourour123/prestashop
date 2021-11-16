@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-15 15:36:52
+/* Smarty version 3.1.39, created on 2021-11-16 09:21:20
   from 'module:pssearchbarpssearchbar.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61927084ad2373_42130356',
+  'unifunc' => 'content_61936a00dc0e37_39336756',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61927084ad2373_42130356 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61936a00dc0e37_39336756 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Block search module TOP -->
 
 <div class="header-element">
