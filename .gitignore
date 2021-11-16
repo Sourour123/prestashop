@@ -11,4 +11,4 @@ node_modules/
 !override
 *.DS_Store
 *.log
-*cache* 
+*cache*/
