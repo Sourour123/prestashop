@@ -1,0 +1,14 @@
+/*
+!themes
+themes/*
+!themes/nom_de_theme
+themes/nom_de_theme/_dev/node_modules*
+!modules
+modules/*
+node_modules/
+!modules/nom_de_module_à_giter
+!.gitignore
+!override
+*.DS_Store
+*.log
+*cache*
