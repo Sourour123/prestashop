@@ -4,7 +4,7 @@
 
 ### Prestashop ###
 # Cache, temp and personal files
-
+/admin359vzdssp/export/index.php
 /.htaccess
 *.log
 
