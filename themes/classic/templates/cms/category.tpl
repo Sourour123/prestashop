@@ -25,29 +25,53 @@
 {extends file='page.tpl'}
 
 {block name='page_title'}
-  {$cms_category.name}
+    {$cms_category.name}
 {/block}
 
 {block name='page_content'}
-  {block name='cms_sub_categories'}
-    {if $sub_categories}
-      <p>{l s='List of sub categories in %name%:' d='Shop.Theme.Global' sprintf=['%name%' => $cms_category.name]}</p>
-      <ul>
-        {foreach from=$sub_categories item=sub_category}
-          <li><a href="{$sub_category.link}">{$sub_category.name}</a></li>
-        {/foreach}
-      </ul>
-    {/if}
-  {/block}
+    {block name='cms_sub_categories'}
+        {if $sub_categories}
+            <p>{l s='List of sub categories in %name%:' d='Shop.Theme.Global' sprintf=['%name%' => $cms_category.name]}</p>
+            <ul>
+                {foreach from=$sub_categories item=sub_category}
+                    { <li><a href="{$sub_category.link}">{$sub_category.name}</a></li>}
 
-  {block name='cms_sub_pages'}
-    {if $cms_pages}
-      <p>{l s='List of pages in %category_name%:' d='Shop.Theme.Global' sprintf=['%category_name%' => $cms_category.name]}</p>
-      <ul>
-        {foreach from=$cms_pages item=cms_page}
-          <li><a href="{$cms_page.link}">{$cms_page.meta_title}</a></li>
-        {/foreach}
-      </ul>
-    {/if}
-  {/block}
+
+                {/foreach}
+            </ul>
+        {/if}
+    {/block}
+
+    {block name='cms_sub_pages'}
+        {if $cms_pages}
+            <p>{l s='List of pages in %category_name%:' d='Shop.Theme.Global' sprintf=['%category_name%' => $cms_category.name]}</p>
+            <ul>
+                {foreach from=$cms_pages item=cms_page}
+                    {*  <li><a href="{$cms_page.link}">{$cms_page.meta_title}</a></li>*}
+                    {if $cms_category.id ==2}
+                        {*category_blog*}
+                        <li class="li-category-blog">
+                            <a href="{$cms_page.link}" class="title">{$cms_page.meta_title}</a>
+                            {assign var="img_cms" value="img/cms/{$cms_page.id_cms}.jpg"}
+                            {if file_exists($img_cms)}
+                                <div col sm-6 id="banner_cms">
+                                    {assign var="cut_to" value="{$cms_page.content|strpos:'<!--more-->'}"}
+                                    <a href="{$cms_page.link}" class="title">
+                                        <img id="test" src="{$urls.base_url}/img/cms/{$cms_page.id_cms}.jpg" alt="{$cms_page.meta_title}"
+                                            title="{$cms_page.meta_title}" style="width:40%;height: 30%;" />
+                                    </a>
+                                </div>
+                            {/if}
+                            {$cms_page.content|substr:0:$cut_to nofilter}
+                            <span><a href="{$cms_page.link}" class="button btn btn-primary">{l s='lire la suite'}</a></span>
+                        </li>
+                    {else}
+                        <li>
+                            <a href="{$cms_page.link}">{$cms_page.meta_title}{$cms_page.meta_title}</a><br>
+                        </li>
+                    {/if}
+                {/foreach}
+            </ul>
+        {/if}
+    {/block}
 {/block}

@@ -25,7 +25,7 @@
 <!-- Block search module TOP -->
 
 <div class="header-element">
-    <div id="search_widget" class="search-widget" data-search-controller-url="{$search_controller_url}">
+    {* <div id="search_widget" class="search-widget" data-search-controller-url="{$search_controller_url}">
         <form method="get" action="{$search_controller_url}">
             <input type="hidden" name="controller" value="search">
             <input type="text" class="d-none" name="s" value="{$search_string}"
@@ -36,6 +36,9 @@
                 <span class="hidden-xl-down">{l s='Search' d='Shop.Theme.Catalog'}</span>
             </button>
         </form>
-    </div>
+    </div>*}
+    <span class="material-icons">
+        search
+    </span>
 </div>
 <!-- /Block search module TOP -->

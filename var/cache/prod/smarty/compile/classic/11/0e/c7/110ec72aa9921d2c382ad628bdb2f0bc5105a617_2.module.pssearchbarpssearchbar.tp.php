@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-16 16:40:20
+/* Smarty version 3.1.39, created on 2021-11-17 16:47:51
   from 'module:pssearchbarpssearchbar.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6193d0e42f8518_68630988',
+  'unifunc' => 'content_61952427921f45_27587730',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '110ec72aa9921d2c382ad628bdb2f0bc5105a617' => 
     array (
       0 => 'module:pssearchbarpssearchbar.tp',
-      1 => 1636917895,
+      1 => 1637143158,
       2 => 'module',
     ),
   ),
@@ -20,29 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6193d0e42f8518_68630988 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61952427921f45_27587730 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Block search module TOP -->
 
 <div class="header-element">
-    <div id="search_widget" class="search-widget" data-search-controller-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
-">
-        <form method="get" action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
-">
-            <input type="hidden" name="controller" value="search">
-            <input type="text" class="d-none" name="s" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_string']->value, ENT_QUOTES, 'UTF-8');?>
-"
-                   placeholder="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search our catalog','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
-"
-                   aria-label="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
-">
-            <button type="button" class="toggle-seach-input"  onclick="showSearchInput()">
-                <i class="material-icons search">&#xE8B6;</i>
-                <span class="hidden-xl-down"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
-</span>
-            </button>
-        </form>
-    </div>
+        <span class="material-icons">
+        search
+    </span>
 </div>
-<!-- /Block search module TOP -->
-<?php }
+<!-- /Block search module TOP --><?php }
 }
