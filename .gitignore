@@ -170,3 +170,5 @@ themes/default-bootstrap/modules/*/mails/*
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
+
+!themes\classic\assets\
