@@ -171,5 +171,4 @@ themes/default-bootstrap/modules/*/mails/*
 /vendor/
 /web/bundles/
 
-
 !themes\classic\assets\
