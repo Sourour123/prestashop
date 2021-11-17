@@ -1,8 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/prestashop
-# Edit at https://www.toptal.com/developers/gitignore?templates=prestashop
-
-### Prestashop ###
 # Cache, temp and personal files
 
 /.htaccess
@@ -175,6 +170,3 @@ themes/default-bootstrap/modules/*/mails/*
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-
-
-# End of https://www.toptal.com/developers/gitignore/api/prestashop
