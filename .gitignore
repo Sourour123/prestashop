@@ -4,7 +4,7 @@
 
 ### Prestashop ###
 # Cache, temp and personal files
-/admin359vzdssp/export/index.php
+
 /.htaccess
 *.log
 
@@ -77,32 +77,32 @@
 *.hot-update.json
 
 
-/admin-dev/autoupgrade/*
-!/admin-dev/autoupgrade/index.php
-!/admin-dev/autoupgrade/backup/index.php
+/admin359vzdssp/autoupgrade/*
+!/admin359vzdssp/autoupgrade/index.php
+!/admin359vzdssp/autoupgrade/backup/index.php
 
-/admin-dev/backups/*
-!/admin-dev/backups/.htaccess
+/admin359vzdssp/backups/*
+!/admin359vzdssp/backups/.htaccess
 
-/admin-dev/import/*
-!/admin-dev/import/.htaccess
-!/admin-dev/import/index.php
+/admin359vzdssp/import/*
+!/admin359vzdssp/import/.htaccess
+!/admin359vzdssp/import/index.php
 
-/admin-dev/export/*
-!/admin-dev/export/.htaccess
-!/admin-dev/export/index.php
+/admin359vzdssp/export/*
+!/admin359vzdssp/export/.htaccess
+!/admin359vzdssp/export/index.php
 
 # Downloaded RTL files
-/admin-dev/themes/default/css/bundle/default_rtl.css
-/admin-dev/themes/default/css/bundle/shared_rtl.css
-/admin-dev/themes/default/css/font_rtl.css
-/admin-dev/themes/default/css/overrides_rtl.css
-/admin-dev/themes/default/css/vendor/font-awesome/font-awesome_rtl.css
-/admin-dev/themes/default/css/vendor/nv.d3_rtl.css
-/admin-dev/themes/default/css/vendor/titatoggle-min_rtl.css
-/admin-dev/themes/default/public/theme_rtl.css
-/admin-dev/themes/new-theme/css/module/drop_rtl.css
-/admin-dev/themes/new-theme/css/right-sidebar_rtl.css
+/admin359vzdssp/themes/default/css/bundle/default_rtl.css
+/admin359vzdssp/themes/default/css/bundle/shared_rtl.css
+/admin359vzdssp/themes/default/css/font_rtl.css
+/admin359vzdssp/themes/default/css/overrides_rtl.css
+/admin359vzdssp/themes/default/css/vendor/font-awesome/font-awesome_rtl.css
+/admin359vzdssp/themes/default/css/vendor/nv.d3_rtl.css
+/admin359vzdssp/themes/default/css/vendor/titatoggle-min_rtl.css
+/admin359vzdssp/themes/default/public/theme_rtl.css
+/admin359vzdssp/themes/new-theme/css/module/drop_rtl.css
+/admin359vzdssp/themes/new-theme/css/right-sidebar_rtl.css
 
 themes/*/cache/*
 
