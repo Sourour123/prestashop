@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-16 14:20:09
+/* Smarty version 3.1.39, created on 2021-11-16 16:40:19
   from 'module:pscustomtextpscustomtext.' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6193b009ac04a2_04159470',
+  'unifunc' => 'content_6193d0e3779dd4_27781993',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6193b009ac04a2_04159470 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6193d0e3779dd4_27781993 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="custom-text">
   <?php echo $_smarty_tpl->tpl_vars['cms_infos']->value['text'];?>
